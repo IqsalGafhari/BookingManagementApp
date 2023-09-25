@@ -4,8 +4,6 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace API.Models;
-
-//membuat anotasi tabel dengan nama custom
 [Table("tb_m_employees")]//nama tabel
 public class Employee : BaseEntity
 {
